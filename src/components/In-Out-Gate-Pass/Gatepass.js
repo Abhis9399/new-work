@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import { useNavigate } from "react-router-dom";
+import GatePass from "../Multistep/gatepass";
 import "./Gatepass.css";
 import { FaEye, FaEdit, FaDownload, FaPlay, FaPen } from "react-icons/fa";
 
@@ -9,6 +11,7 @@ const TableComponent = () => {
         setShowIcons(event.target.checked);
       };
 
+      
   const data = [
     {
       id: 1,
@@ -26,6 +29,9 @@ const TableComponent = () => {
     },
     // Add more data as needed
   ];
+
+  const navigate = useNavigate();
+
 
   return (
     <table style={{ width: "100%" }}>
@@ -240,6 +246,12 @@ const TableComponent = () => {
 
 
 function Gatepass() {
+
+  const navigate = useNavigate();
+
+  const handleClick =()=>{
+    navigate('/GatePass')
+  }
   return (
     <div className="content">
       <div className="user-info">
@@ -251,7 +263,7 @@ function Gatepass() {
             <span className="fa fa-search form-control-feedback"></span>
             <input type="text" className="form-control" placeholder="Search" />
           </div>
-          <button className="w-50 btn-gatepass">New Gate Pass</button>
+          <button className="w-50 btn-gatepass" onClick={handleClick}>New Gate Pass</button>
         </div>
       </div>
       <div className="card-container">
