@@ -1,0 +1,129 @@
+
+  .logo{
+    padding-left: 20px;
+    display: flex;
+    padding-top: 20px;
+  }
+  /* .logo-img{
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+  } */
+  .logo-text{
+     color: white;
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  
+  .navbar {
+    width: 20%;
+    background-color: rgb(15, 23, 42);
+    /* color: #333; */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 20px; */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  
+  .navigation {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  
+  .user-profile {
+    margin-top: auto;
+    display: flex;
+    /* width: 40px;
+    height: 40px;
+    justify-content: center; */
+    align-items: center;
+    /* flex-shrink: 0; */
+    margin-left: 10px;
+  }
+  .bottom {
+    margin-top: auto; 
+    width: 100%;
+  }
+
+  .icons{
+    width: 24px;
+    height: 24px;
+  }
+
+  /* .secondary-navigation{
+    margin-top: auto;
+  } */
+  
+  .user-profile img {
+    margin-top: auto;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .user-email {
+    color: #64748B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 7px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    color: #64748B;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-icon {
+    margin-right: 10px;
+  }
+  
+  .nav-text {
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  .nav-item:hover,.nav-item.selected {
+    background-color: #1e283a;
+    color: #f0f0f0;
+  }
+  

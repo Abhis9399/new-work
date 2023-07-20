@@ -1,0 +1,137 @@
+.notifications {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gate-pass-history,
+.notify {
+  height: 50%;
+  /* background-color: #f0f0f0; */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.gate-pass-history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .notify {
+  display: flex;
+  border-bottom: 1px solid gray;
+} */
+
+.notify {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #333;
+  font-family: Arial, sans-serif;
+  /* padding-left: 20px; */
+}
+.inner-widges{
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid blue;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #3B82F6;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+}
+.notification-inner{
+  border: 1px solid white;
+    width: 96%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.notification-list {
+  margin-top: 10px;
+}
+
+.navigation{
+  display: flex;
+  padding: 0;
+}
+.nav-item{
+  border: 1px solid gray;
+}
+
+
+.notification-icon {
+  margin-right: 10px;
+}
+
+.notification-name {
+overflow: hidden;
+color:  #0D161D;
+text-overflow: ellipsis;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.notification-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notification-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.notification-time {
+  overflow: hidden;
+color: var(--black-40, rgba(0, 0, 0, 0.40));
+text-overflow: ellipsis;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+h4{
+  color: #333;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+.notification-icon{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 8px;
+  background: var(--primary-blue, #E3F5FF);
+}
+
+.chatbox{
+  width: 100%;
+  padding: 10px;
+}
+.chatbot-desc{
+  padding: 5px
+}

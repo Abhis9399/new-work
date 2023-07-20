@@ -1,0 +1,272 @@
+.content {
+    width: 75%;
+    background-color: #F2F7FF;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-info p{
+    color: #676767;
+    padding-top: 5px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .user-name{
+    color: #64748B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .card-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    justify-content: space-between;
+    background: #3B82F6;
+    height: 70px;
+  }
+  
+  .card-icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-icon i {
+    color: #333;
+  }
+  
+  /* .card-content h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  } */
+  
+  /* .card-content p {
+    margin: 0;
+  } */
+  
+  .helping-text{
+  color: #FFF;
+  font-family: SF Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+  }
+  .helping-no{
+  font-size: 40px;
+  font-weight: 590;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+  }
+  
+  .gatepass-card-detail {
+    width: 24%;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #3B82F6;
+    background: #FFF;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .status{
+    color: var(--gray-500, #64748B);
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .order-status-no{
+    color: var(--gray-700, #334155);
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  /* .second-card{
+    border-bottom: 4px solid #F6C259;
+  }
+  
+  .third-card{
+    border-bottom: 4px solid #7F63F4;;
+  }
+   */
+  .card span{
+    color: #64748B;
+    /* margin: 0.5rem; */
+  }
+  .card p{
+    font-family: SF Pro Text;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  /* margin: 0.5rem; */
+  }
+  
+  .has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+  
+  .searchbar {
+    width: 30%;
+  }
+  
+  .container{
+    padding-left: 7px;
+    padding-right: 7px;
+  height: 476px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(71, 91, 232, 0.25);
+  background: linear-gradient(180deg, #FFF 0%, rgba(153, 165, 251, 0.50) 100%);
+  margin-top: 20px;
+  }
+
+  th{
+    color: var(--gray-500, #64748B);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.622px;
+  }
+
+  .btn-gatepass{
+    margin-left: 20px;
+    background: #3B82F6;
+    border-radius: 4px;
+    border: 1px solid gray;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Add other table styles as needed */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+    /* Add other header styles as needed */
+  }
+
+  .action-wrapper{
+    /* height: 75%; */
+    margin: auto;
+    background: #3B82F6;
+    border-radius: 5px;
+    /* width: 75%; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 2px;
+  }
+
+  .action-icon{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .arrow-icons{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .attach-btn{
+    margin-left: 14px;
+    height: 70%;
+    display: flex;
+    width: 136px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #3B82F6;
+    color: #3B82F6;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .attach-file-wrapper{
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    padding: 2px;
+  }
+
+  .first-content{
+    width: 39%;
+    height: 10px;
+    background-color: #7ab3f0;
+    border-radius: 6px;
+  }
+
+  .subattach-container{
+    width: 100%;
+    padding: 10px;
+  }
+
